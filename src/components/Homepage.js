@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import Beginnings from './Beginnings'
 
 class Homepage extends Component {
   render() {
     return (
-      <div>
-      </div>
+      <main>
+        <Beginnings/>
+      </main>
     );
   }
 }
