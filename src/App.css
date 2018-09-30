@@ -22,16 +22,12 @@ html {
 }
 
 @font-face {
-  font-family: "Iowan-Old-Style";
+  font-family: "Iowan Old Style";
   src: local('./web-fonts-with-css/css/fonts/Iowan-Old-Style.ttc');
 }
 
-h1, h2, h3, h4, h5, h6, body {
-  font-family: "FestivalBudayaXXXI", Arial, sans-serif;
-}
-
-p, footer {
-  font-family: "Iowan-Old-Style", Arial, sans-serif;
+h1, h2, h3, h4, h5, h6, body, footer {
+  font-family: "Iowan Old Style", Arial, sans-serif;
 }
 
 body {
@@ -95,4 +91,62 @@ footer {
 
 main {
   grid-column: 1/-1;
+}
+
+.dropcap {
+  color: #903;
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+.col-2 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px;
+  grid-template-areas:
+    "story photo";
+  padding-top: 100px;
+}
+
+.col-2-flip {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas:
+    "photo story"
+}
+
+.story {
+  grid-area: story;
+}
+
+.photo-reference {
+  grid-area: photo;
+}
+
+.photo-reference img {
+  width: 100%;
+}
+
+.quotes {
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+}
+
+#early-beginnings .story {
+  grid-column: 2/7;
+  padding-right: 20px;
+}
+
+#early-beginnings .photo-reference {
+  grid-column: 7/12;
+}
+
+#early-beginnings .quotes {
+  grid-column: 2/12;
 }
