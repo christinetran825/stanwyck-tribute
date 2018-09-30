@@ -1,28 +1,98 @@
-.App {
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/* ==========================================================================
+   Root Styles
+   ========================================================================== */
+
+:root {
+  --main-text: #414140;
+}
+
+@font-face {
+  font-family: "FestivalBudayaXXXI";
+  src: local('./web-fonts-with-css/css/fonts/FestivalBudayaXXXI.otf');
+}
+
+@font-face {
+  font-family: "Iowan-Old-Style";
+  src: local('./web-fonts-with-css/css/fonts/Iowan-Old-Style.ttc');
+}
+
+h1, h2, h3, h4, h5, h6, body {
+  font-family: "FestivalBudayaXXXI", Arial, sans-serif;
+}
+
+p, footer {
+  font-family: "Iowan-Old-Style", Arial, sans-serif;
+}
+
+body {
+  max-width: 1440px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas:
+    "header"
+    "main"
+    "footer"
+}
+
+header {
+  width: auto;
+  height: auto;
+  background-image: url("/images/barbara-stanwyck-424419926.jpg");
+  background-position: center 38%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: 1/-1;
+}
+
+.hero {
+  color: white;
+  margin-top: 800px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.hero-title {
+  font-size: 100px;
+  margin-bottom: 0;
+  grid-column: 1/-1;
+}
+
+.hero-subtitle {
+  font-size: 30px;
+  margin-top: -30px;
+  margin-left: 50px;
+  grid-column: 3/-1;
+}
+
+footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  grid-column: 1/-1;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+main {
+  grid-column: 1/-1;
 }
