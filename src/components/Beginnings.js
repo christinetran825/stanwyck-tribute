@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Beginnings extends Component {
   render() {
     return (
-      <div id="early-beginnings" className="col-2">
+      <section id="early-beginnings">
         <div className="story">
           <p><span class="dropcap">B</span>orn as Ruby Catherine Stevens to a poor Scottish-Irish working class family in Brooklyn in July 16, 1907. When Ruby was just four, her mother was killed after a drunk knocked her off a moving streetcar. The loss of her mother devastated her grieving father. Unable to cope with such lost he vanished without a word. The children never saw him again.</p>
 
@@ -19,7 +19,7 @@ class Beginnings extends Component {
         <div className="quotes">
           <h3>“I knew that after fourteen I’d have to earn my own living, but I was willing to do that … I’ve always been a little sorry for pampered people, and of course, they’re ‘very’ sorry for me.”</h3>
         </div>
-      </div>
+      </section>
     )
   }
 };
