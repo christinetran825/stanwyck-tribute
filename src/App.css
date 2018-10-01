@@ -26,7 +26,11 @@ html {
   src: local('./web-fonts-with-css/css/fonts/Iowan-Old-Style.ttc');
 }
 
-h1, h2, h3, h4, h5, h6, body, footer {
+h1, h2, h3, h4, h5, h6 {
+  font-family: "FestivalBudayaXXXI", Georgia, serif;
+}
+
+body, footer {
   font-family: "Iowan Old Style", Arial, sans-serif;
 }
 
@@ -93,60 +97,149 @@ main {
   grid-column: 1/-1;
 }
 
-.dropcap {
-  color: #903;
-  float: left;
-  font-family: Georgia;
-  font-size: 75px;
-  line-height: 60px;
-  padding-top: 4px;
-  padding-right: 8px;
-  padding-left: 3px;
-}
-
-.col-2 {
+section {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  /* grid-template-columns: repeat(12, 1fr); */
   grid-gap: 20px;
-  grid-template-areas:
-    "story photo";
-  padding-top: 100px;
+  /* padding: 0 80px; */
+  padding-bottom: 100px;
 }
 
-.col-2-flip {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
+.dropcap {
+  float: left;
+  font-family: "FestivalBudayaXXXI", Georgia, serif;
+  font-size: 70px;
+  line-height: 65px;
+  /* padding-top: 4px; */
+  padding-right: 10px;
+  /* padding-left: 3px; */
+}
+
+#early-beginnings {
+  padding-top: 100px;
+  grid-template-areas:
+    "story photo"
+    "quote quote";
+}
+
+#motion-pictures {
   grid-template-areas:
     "photo story"
+    "gallery gallery"
+    "quote quote";
+}
+
+#personality {
+  grid-template-areas:
+    "photo"
+    "story"
+    "quote";
+}
+
+#late-life {
+  grid-template-areas:
+    "story"
+    "quote"
+    "photo";
+}
+
+#filmography {
+  grid-template-areas:
+    "list-1 list-2 list-3";
+}
+
+#closing {
+  grid-template-areas:
+    "quote"
+    "photo";
 }
 
 .story {
   grid-area: story;
+  align-self: center;
 }
 
 .photo-reference {
   grid-area: photo;
+  align-self: center;
 }
 
 .photo-reference img {
   width: 100%;
+  height: 100%;
 }
 
 .quotes {
+  grid-area: quote;
+  padding-top: 100px;
+  padding-left: 125px;
+  padding-right: 125px;
   font-size: 30px;
   font-style: italic;
   text-align: center;
 }
 
+.quotes h3 {
+  font-family: "Iowan Old Style", Arial, sans-serif;
+}
+
+.author {
+  margin-bottom: 0;
+}
+
+.author-title {
+  margin-top: 0;
+  font-size: 20px;
+}
+
 #early-beginnings .story {
-  grid-column: 2/7;
-  padding-right: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
-#early-beginnings .photo-reference {
-  grid-column: 7/12;
+#motion-pictures .story {
+  padding-right: 70px;
+  padding-left: 50px;
 }
 
-#early-beginnings .quotes {
-  grid-column: 2/12;
+#early-beginnings  .photo-reference img,
+#motion-pictures .photo-reference img {
+  width: 600px;
+}
+
+#personality .story,
+#late-life .story {
+  padding: 50px 100px 0 100px;
+}
+
+.story-title {
+  font-size: 50px;
+}
+
+#motion-pictures .film-gallery {
+  grid-column: 1/-1;
+}
+
+#late-life .photo-reference {
+}
+
+#filmography ul {
+  list-style-type: none;
+}
+
+.list-1 {
+  grid-area: list-1;
+}
+
+.list-2 {
+  grid-area: list-2;
+}
+
+.list-3 {
+  grid-area: list-3;
+}
+
+.category {
+  font-size: 20px;
+  margin: 30px 0;
 }
