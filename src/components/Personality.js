@@ -4,9 +4,6 @@ class Personality extends Component {
   render() {
     return (
       <section id="personality">
-        {/* <div className="photo-reference">
-          <img src="./images/golden-boy.jpg" alt="stanwyck in golden boy" className="photo-highlights"/>
-        </div> */}
         <div className="photo-highlights">
           <img src="./images/golden-boy.jpg" alt="stanwyck in golden boy"/>
         </div>

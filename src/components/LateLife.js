@@ -14,9 +14,6 @@ class LateLife extends Component {
         <div id="testimonials" className="quotes">
           <h3 className="quote">“…the actress in control, the very essence of Barbara Stanwyck’s imminent. That hold she has in the audience is reality, she’s professional. When she walks across the screen, it’s beauty and confidence, she’s always the woman that she plays, and yet always herself.”</h3>
         </div>
-        {/* <div className="photo-reference">
-          <img src="./images/Barbara_Stanwyck_Big_Valley_1968.jpg" alt="stanwyck in Big Valley" className="photo-highlights"/>
-        </div> */}
         <div className="photo-highlights">
           <img src="./images/Barbara_Stanwyck_Big_Valley_1968.jpg" alt="stanwyck in Big Valley"/>
         </div>

@@ -4,9 +4,6 @@ class MotionPictures extends Component {
   render() {
     return (
       <section id="motion-pictures">
-        {/* <div className="photo-reference">
-          <img src="./images/baby-face-2-lg.jpeg" alt="1930s stanwyck" className="photo-highlights"/>
-        </div> */}
         <div className="photo-highlights">
           <img src="./images/baby-face-2-lg.jpeg" alt="1930s stanwyck"/>
         </div>
@@ -19,18 +16,16 @@ class MotionPictures extends Component {
             <p>Barbara’s Pre-Code films highly embodied those sentiments. Her characters were usually down-trotted women who work their way up through any necessary means; even if it meant using her own body. Despite the backstories, her characters reflected the wit, intelligence, grit, fight, and power a woman holds. Their strength in themselves and overall self-reliance proved just how confident and smart women were even when they’re suffocated by their situation and environments. At times, her characters will need to adopt masculine traits or values to survive.</p>
 
             <div className="movie-highlights">
-              <p>In <span className="film-name">“Ladies They Talk About”</span>, Barbara’s character was the mastermind behind a bank robbery during the Great Depression. Her performance as a calculative and impressionable Nan shows how even some women can’t get away with playing the helpless poor girl card.</p>
+              <div className="selected-movies">
+                <p>In <span className="film-name">“Ladies They Talk About”</span>, Barbara’s character was the mastermind behind a bank robbery during the Great Depression. Her performance as a calculative and impressionable Nan shows how even some women can’t get away with playing the helpless poor girl card.</p>
 
-              <p>In the memorable <span className="film-name">“Baby Face”</span>, Barbara’s character Lilly, comes from an awful background, sexually exploited by her very own father. She fights her way out of that life by playing the helpless, innocent woman as she targets successful, older, wealthy, young, and ignorant men. She manipulates them into believing they’re in charge. Sleeping her way up to the top and getting what she wants without apologies, without showing little remorse towards morality from this character was viewed as a little too natural. Her performance seemed to have projected an idea where the everyday woman could sleep her way up to the top. </p>
+                <p>In the memorable <span className="film-name">“Baby Face”</span>, Barbara’s character Lilly, comes from an awful background, sexually exploited by her very own father. She fights her way out of that life by playing the helpless, innocent woman as she targets successful, older, wealthy, young, and ignorant men. She manipulates them into believing they’re in charge. Sleeping her way up to the top and getting what she wants without apologies, without showing little remorse towards morality from this character was viewed as a little too natural. Her performance seemed to have projected an idea where the everyday woman could sleep her way up to the top. </p>
 
-              <div className="photo-reference">
-                <img src="./images/baby-face-2-lg.jpg" alt="1930s stanwyck"/>
+                <p>Another film called <span className="film-name">“Night Nurse”</span> featured Barbara in lingerie as she undresses herself for bed. A scene in the film includes our hero being knocked unconscious after an attempted rape. The bootlegger is the hero and the chauffeur is the villain. Barbara’s nurse character is in danger of saving the children she’s caring for who are being starved and targeted for murder. On a more positive note, a maternity ward scene showcased a diverse set of women of varying ethnic backgrounds as mothers receiving their newborn babies. Night Nurse showed us a character who sought to do the moral deed of helping others but stuck in between the rules and regulations. In the end, it seems as though sliding into the amoral side proved to be the moral thing to do.</p>
               </div>
 
-              <p>Another film called <span className="film-name">“Night Nurse”</span> featured Barbara in lingerie as she undresses herself for bed. A scene in the film includes our hero being knocked unconscious after an attempted rape. The bootlegger is the hero and the chauffeur is the villain. Barbara’s nurse character is in danger of saving the children she’s caring for who are being starved and targeted for murder. On a more positive note, a maternity ward scene showcased a diverse set of women of varying ethnic backgrounds as mothers receiving their newborn babies. Night Nurse showed us a character who sought to do the moral deed of helping others but stuck in between the rules and regulations. In the end, it seems as though sliding into the amoral side proved to be the moral thing to do.</p>
-
               <div className="photo-reference">
-                <img src="./images/baby-face-2-lg.jpg" alt="1930s stanwyck"/>
+                <img src="./images/baby-face.png" alt="1930s stanwyck"/>
               </div>
             </div>
 
@@ -39,6 +34,10 @@ class MotionPictures extends Component {
             <p>The code looks to have suppressed female empowerment, independence, free spiritism, and many of the freedoms of the female self defined during the Pre-Code era. Virginity and purity had returned subjecting women back into the kitchen to fulfill her motherly and housewife duties to uphold the virtues of ‘common decency.’</p>
 
             <p>Ironically, the staunchly conservative Barbara would become a member of the Motion Picture Alliance for the Preservation of American Ideals. She believed that “hard work with the prospect of rich reward was the American Way.” The group supported the blacklisting House Committee on Un-American Activities opposing both communist and fascist influences in Hollywood. That’s a story for another time.</p>
+
+            <div className="photo-reference">
+              <img src="./images/night-nurse.jpg" alt="1930s stanwyck"/>
+            </div>
           </div>
 
           <div className="during-postcode">
