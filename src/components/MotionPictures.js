@@ -4,13 +4,16 @@ class MotionPictures extends Component {
   render() {
     return (
       <section id="motion-pictures">
-        <div className="photo-reference">
-          <img src="./images/baby-face-2-lg.jpg" alt="1930s stanwyck" className="photo-highlights"/>
+        {/* <div className="photo-reference">
+          <img src="./images/baby-face-2-lg.jpeg" alt="1930s stanwyck" className="photo-highlights"/>
+        </div> */}
+        <div className="photo-highlights">
+          <img src="./images/baby-face-2-lg.jpeg" alt="1930s stanwyck"/>
         </div>
+        <h2 className="section-title">Motion Pictures</h2>
         <div className="story">
-          <h2 className="story-title">Motion Pictures</h2>
           <div className="precode">
-            <h4 className="story-subtitle">Pre-code</h4>
+            <h4 className="story-title">Pre-code</h4>
             <p>In the 1920s the movie industry welcomed sound. With it came the awe and captivation of movie stars. They were idolized and aspired to. Women stars were portrayed as virgins, saints, sinners, vamps, innocent, and sometimes unsophisticated. Gone were the days of purity. The 20s arrived with open arms where films were racy, outspoken, fresh, sometimes raunchy, escapisms, and brutally honest. This new tone marked a time where women dominated the film industry. On screen, the women sought and made their voices heard. They got rid of unfaithful husbands and held professional positions without apologizing. Some were involved in the underbelly of organized crimes. They explored their sexuality having many lovers, having premarital sex, and at times had children out of wedlock. Women were rebels, sensual, powerful, and independent. They were the modern women making tough decisions be it out of necessity or out of personal drive. The path could be considered the wrong way but it was her way and she’ll do what it takes to survive. If men could do it, then so can women too. Perhaps it was the early birth of feminism in film during an era when it was least expected.</p>
 
             <p>Barbara’s Pre-Code films highly embodied those sentiments. Her characters were usually down-trotted women who work their way up through any necessary means; even if it meant using her own body. Despite the backstories, her characters reflected the wit, intelligence, grit, fight, and power a woman holds. Their strength in themselves and overall self-reliance proved just how confident and smart women were even when they’re suffocated by their situation and environments. At times, her characters will need to adopt masculine traits or values to survive.</p>
@@ -39,7 +42,7 @@ class MotionPictures extends Component {
           </div>
 
           <div className="during-postcode">
-            <h4 className="story-subtitle">During & Post Code</h4>
+            <h4 className="story-title">During & Post Code</h4>
             <p>The Pre-Code era didn't affect Barbara's shining star as it did for a few other actresses at the time. Over her 38-year motion picture career, Barbara made 85 films playing a mix of characters usually of women from humble origins who had to fight to earn their rightful place in society. She continued to be a versatile actress starring in a long diverse list of films from comedies, noir, thrillers, and Westerns. Like a panther, she cooly and calculatively played a slutty, gold-digging scammer working her way up in social and financial status <span className="film-name">(Baby Face)</span>, a sleazy murderous blonde <span className="film-name">(Double Indemnity)</span>, a witty con artist pulling a fast one <span className="film-name">(The Lady Eve)</span>, and a slang-tongue screwball heroine in a sort of Snow White and the Seven Dwarfs comedy way <span className="film-name">(Ball of Fire)</span>. Whatever the role, whatever genre, Barbara gave it her all, and usually on one take.</p>
 
             <p>She developed a distinctive character image - thick skin exterior shielding a warm, soft heart. Her emotional range was incredible. Expressing the exploration of human behavior and all its complexities was one of Barbara’s strengths not just as a performer. It might’ve been a cathartic outlet as she dug deep within her own life and experiences to bring intense complexity to her characters. Portraying a self-reliant, gutsy, and incredibly confident woman whose cool exterior held a vulnerable woman with a genuine heart defined a majority of roles she’s played. She believed writers then paid more attention to actors and actresses. Writers used to look at the actors and actresses work to build on the characters. Knowing the resume allowed writers to “know a part of you.” This was apparent in the film <span className="film-name">“Stella Dallas.”</span> Stella was a tough-talking woman but self-sacrificing noble mother. Speaking about the role, Barbara said, "...She wasn't me, that woman, but she was a woman I understood completely. She was good, cheap but good, and I could play her.” Barbara bleached her hair blonde for the leading role; the one and only time she physically changed her appearance for any role. This 1937 remake of the original film was highly acclaimed and well received adding even more shine to Barbara’s star. The film was so popular a radio soap opera was created to continue the story from the film. It lasted for two decades. Stella Dallas is one of Barbara's most well-known role earning her an Academy Award Nomination.</p>

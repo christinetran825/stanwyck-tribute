@@ -4,10 +4,10 @@ class Filmography extends Component {
   render() {
     return (
       <section id="filmography">
-        <h2 className="story-title">Filmography</h2>
+        <h2 className="section-title">Filmography</h2>
         <div className="movies">
+          <p className="category motion">Motion Pictures</p>
           <ul className="list-1">
-            <li className="category">Motion Pictures</li>
             <li>Broadway Nights (1927)</li>
             <li>The Locked Door (1929)</li>
             <li>Mexicali Rose (1929)</li>
@@ -43,8 +43,6 @@ class Filmography extends Component {
             <li>The Mad Miss Manton (1938)</li>
             <li>Union Pacific (1939)</li>
             <li>Golden Boy (1939)</li>
-          </ul>
-          <ul className="list-2">
             <li>Remember the Night (1940)</li>
             <li>The Lady Eve (1941)</li>
             <li>Meet John Doe (1941)</li>
@@ -52,6 +50,8 @@ class Filmography extends Component {
             <li>Ball of Fire (1941)</li>
             <li>The Great Man’s Lady (1942)</li>
             <li>The Gay Sisters (1942)</li>
+          </ul>
+          <ul className="list-2">
             <li>Lady of Burlesque (1943)</li>
             <li>Flesh and Fantasy (1943)</li>
             <li>Double Indemnity (1944)</li>
@@ -82,8 +82,6 @@ class Filmography extends Component {
             <li>Blowing Wild (1953)</li>
             <li>Witness to Murder (1954)</li>
             <li>Executive Suite (1954)</li>
-          </ul>
-          <ul className="list-3">
             <li>Cattle Queen of Montana (1954)</li>
             <li>The Violent Men (1955)</li>
             <li>Escape to Burma (1955)</li>
@@ -96,21 +94,21 @@ class Filmography extends Component {
             <li>Walk on the Wild Side (1962)</li>
             <li>Roustabout (1964)</li>
             <li>The Night Walker (1964)</li>
-
-
-            <li className="category">TV Films</li>
+          </ul>
+        </div>
+        <div className="non-movies">
+          <ul className="list-3">
+            <p className="category tvfilms">TV Films</p>
             <li>Calhoun: County Agent (unaired 1964)</li>
             <li>The House That Would Not Die (1970)</li>
             <li>A Taste of Evil (1971)</li>
             <li>The Letters (1973)</li>
 
-
-            <li className="category">Radio</li>
+            <p className="category radio">Radio</p>
             <li>Hollywood Sound Stage; Dark Victory (1952)</li>
             <li>Theatre Guild on the Air; Portrait in Black (1952)</li>
 
-
-            <li className="category">TV</li>
+            <p className="category tv">TV</p>
             <li>The Barbara Stanwyck Show (1961)</li>
             <li>The Untouchables (1962-63)</li>
             <li>The Wagon Train (1961–64)</li>
