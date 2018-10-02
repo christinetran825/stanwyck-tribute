@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Personality extends Component {
+class BeingStany extends Component {
   render() {
     return (
       <section id="personality">
@@ -23,4 +23,4 @@ class Personality extends Component {
   }
 };
 
-export default Personality
+export default BeingStany
