@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "FestivalBudayaXXXI", Georgia, serif;
 }
 
-body, footer, .quote {
+body, footer h5, .quote {
   font-family: "Iowan Old Style", Arial, sans-serif;
 }
 
@@ -105,6 +105,10 @@ footer {
   text-align: center;
 }
 
+footer h5 {
+  font-size: 30px;
+}
+
 /* ==========================================================================
    Main Styles
    ========================================================================== */
@@ -142,7 +146,6 @@ section {
 
 #early-life {
   grid-area: early-life;
-  padding-top: 200px;
 }
 
 #motion-pictures {
@@ -160,52 +163,6 @@ section {
   grid-area: closing;
 }
 
-.story {
-  grid-area: story;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-gap: 20px;
-  grid-row-gap: 40px;
-}
-
-.story > article {
-  grid-column: 2/span 10;
-}
-
-.personality,
-.later-life {
-  display: grid;
-  grid-row-gap: 40px;
-  grid-template-areas:
-    "text"
-    "quotes"
-}
-
-/* .precode,
-.movie-highlights,
-.during-postcode,
-.personality,
-.later-life {
-  grid-column: 2/span 10;
-} */
-
-
-/* .personality {
-  grid-area: personality;
-}
-
-.later-life {
-  grid-area: later-life;
-}
-
-.personality .quotes {
-  grid-area: personality-quote;
-}
-
-.later-life .quotes {
-  grid-area: later-life-quote;
-} */
-
 /* ==========================================================================
    Photos Styles
    ========================================================================== */
@@ -213,18 +170,6 @@ section {
 .section-hero {
  grid-area: section-hero;
 }
-
-/*
-.section-hero,
-.photo-reference {
-  align-self: center;
-}
-
-.section-hero img,
-.photo-reference img {
-  width: 100%;
-  height: 100%;
-} */
 
 /* ==========================================================================
    Story Styles
@@ -250,6 +195,26 @@ section {
   font-style: italic;
 }
 
+.story {
+  grid-area: story;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px;
+  grid-row-gap: 40px;
+}
+
+.story > article {
+  grid-column: 2/span 10;
+}
+
+.personality,
+.later-life {
+  display: grid;
+  grid-row-gap: 40px;
+  grid-template-areas:
+    "text"
+    "quotes"
+}
 
 /* ==========================================================================
    Quotes Styles
@@ -283,10 +248,10 @@ section {
 .gallery {
   grid-column: 2/span 10;
   display: grid;
-  /* grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); */
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  /* grid-auto-rows: repeat(2, 300px); */
-  grid-template-rows: repeat(2, 400px);
+  grid-auto-rows: 300px 300px;
+  grid-auto-flow: dense;
+  padding-top: 50px;
 }
 
 .item img {
@@ -295,11 +260,16 @@ section {
   object-fit: cover;
 }
 
-.item:nth-child(4) {
+.during-postcode .gallery {
+  grid-auto-rows: 210px 300px;
+  padding-bottom: 50px;
+}
+
+.movie-highlights .item:nth-child(4) {
   grid-column: 1 /span 2;
 }
 
-.item:nth-child(5) img {
+.movie-highlights .item:nth-child(5) img {
   object-position: top;
 }
 
