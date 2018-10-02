@@ -4,7 +4,7 @@ class Filmography extends Component {
   render() {
     return (
       <section id="filmography">
-        <div className="photo-highlights">
+        <div className="section-hero">
           <img src="./images/Barbara_Stanwyck_Big_Valley_1968.jpg" alt="stanwyck in Big Valley"/>
         </div>
         <h2 className="section-title">Filmography</h2>
