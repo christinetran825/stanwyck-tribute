@@ -4,6 +4,9 @@ class Filmography extends Component {
   render() {
     return (
       <section id="filmography">
+        <div className="photo-highlights">
+          <img src="./images/Barbara_Stanwyck_Big_Valley_1968.jpg" alt="stanwyck in Big Valley"/>
+        </div>
         <h2 className="section-title">Filmography</h2>
         <div className="movies">
           <p className="category motion">Motion Pictures</p>
