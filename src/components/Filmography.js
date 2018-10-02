@@ -128,7 +128,7 @@ class Filmography extends Component {
           </div>
         </div>
         <div id="testimonials" className="quotes">
-          <h3 className="quote">“…the actress in control, the very essence of Barbara Stanwyck’s imminent. That hold she has in the audience is reality, she’s professional. When she walks across the screen, it’s beauty and confidence, she’s always the woman that she plays, and yet always herself.”</h3>
+          <h3 className="quote">“I’m a tough old broad from Brooklyn. I intend to go on acting until I’m ninety and they won’t need to paste my face with make-up.”</h3>
         </div>
       </section>
     )
