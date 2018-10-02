@@ -8,7 +8,8 @@ class Closing extends Component {
           <h3 className="quote">“…the actress in control, the very essence of Barbara Stanwyck’s imminent. That hold she has in the audience is reality, she’s professional. When she walks across the screen, it’s beauty and confidence, she’s always the woman that she plays, and yet always herself.”</h3>
         </div>
         <div className="photo-highlights">
-          <img src="./images/barbara-stanwyck-portrait-3.jpg" alt="1930s stanwyck"/>
+          {/* <img src="./images/barbara-stanwyck-portrait-3.jpg" alt="1930s stanwyck"/> */}
+          <img src="./images/barbara-stanwyck.gif" alt="gif of stanwyck blowing kisses"/>
         </div>
       </section>
     )
