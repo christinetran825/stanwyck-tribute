@@ -53,6 +53,10 @@ body {
     "footer"
 }
 
+/* ==========================================================================
+   Header Styles
+   ========================================================================== */
+
 header {
   width: auto;
   height: auto;
@@ -85,6 +89,10 @@ header {
   grid-column: 3/-1;
 }
 
+/* ==========================================================================
+   Footer Styles
+   ========================================================================== */
+
 footer {
   right: 0;
   bottom: 0;
@@ -94,6 +102,10 @@ footer {
   grid-column: 1/-1;
   text-align: center;
 }
+
+/* ==========================================================================
+   Main Styles
+   ========================================================================== */
 
 main {
   grid-area: main;
@@ -118,10 +130,12 @@ section {
   /* padding-left: 3px; */
 }
 
-/* story */
+/* ==========================================================================
+   Story Styles
+   ========================================================================== */
 
 .section-title,
-.story {
+article {
   grid-column: 2/span 10;
   align-self: center;
 }
@@ -144,7 +158,9 @@ section {
   font-style: italic;
 }
 
-/* quotes */
+/* ==========================================================================
+   Quotes Styles
+   ========================================================================== */
 
 .quotes {
   font-size: 30px;
@@ -162,7 +178,9 @@ section {
   font-size: 20px;
 }
 
-/* photos */
+/* ==========================================================================
+   Photos Styles
+   ========================================================================== */
 
 .photo-highlights {
   grid-column: 1/-1;
@@ -170,7 +188,7 @@ section {
 
 .photo-highlights,
 .photo-reference {
-  align-self: cover;
+  align-self: center;
 }
 
 .photo-highlights img,
@@ -179,7 +197,9 @@ section {
   height: 100%;
 }
 
-/* Early Beginnings */
+/* ==========================================================================
+   Early Beginnings Styles
+   ========================================================================== */
 
 #early-beginnings .story {
   grid-column: 2/span 5;
@@ -189,34 +209,33 @@ section {
   grid-column: 7/span 5;
 }
 
-/* Motion Pictures */
-
-.movie-highlights {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-gap: 20px;
-}
-
-.selected-movies {
-  grid-column: 1/span 5;
-}
+/* ==========================================================================
+   Motion Pictures Styles
+   ========================================================================== */
 
 .movie-highlights .photo-reference {
-  grid-column: 6/-1;
-  align-items: center;
+  float: right;
+  clear: both;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  margin-top: 50px;
 }
 
 .during-postcode {
   padding-top: 50px;
 }
 
-/* Later Life */
+/* ==========================================================================
+   Later Life Styles
+   ========================================================================== */
 
 #later-life {
   padding-top: 0;
 }
 
-/* Filmography */
+/* ==========================================================================
+   Filmography Styles
+   ========================================================================== */
 
 #filmography ul {
   list-style-type: none;
@@ -255,7 +274,9 @@ section {
 }
 
 
-/* breakpoints */
+/* ==========================================================================
+   BREAKPOINTS Styles
+   ========================================================================== */
 
 
 /* #early-beginnings {
