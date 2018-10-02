@@ -119,6 +119,9 @@ class Filmography extends Component {
             <li>The Thorn Birds (TV miniseries, 1983)</li>
           </ul>
         </div>
+        <div id="testimonials" className="quotes">
+          <h3 className="quote">“…the actress in control, the very essence of Barbara Stanwyck’s imminent. That hold she has in the audience is reality, she’s professional. When she walks across the screen, it’s beauty and confidence, she’s always the woman that she plays, and yet always herself.”</h3>
+        </div>
       </section>
     )
   }
