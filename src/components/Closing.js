@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 
 class Closing extends Component {
   render() {
@@ -11,11 +12,11 @@ class Closing extends Component {
         <div className="story" id="tribute-info">
           <p className="article-title">References</p>
           <ul>
-            <li><a href="https://www.thehairpin.com/2013/03/scandals-of-classic-hollywood-the-many-faces-of-barbara-stanwyck/" id="tribute-link" target="_blank">The Hairpin</a></li>
-            <li><a href="https://filmdialogueone.wordpress.com/2017/10/24/barbara-stanwyck/" id="tribute-link" target="_blank">Film Dialogue</a></li>
-            <li><a href="https://www.bestmoviesbyfarr.com/articles/barbara-stanwyck-bio/2016/04" id="tribute-link" target="_blank">Best Movies By Farr</a></li>
-            <li><a href="https://www.barbara-stanwyck.com/essential-guide-barbara-stanwyck/" id="tribute-link" target="_blank">The Essential Guide to Barbara Stanwyck</a></li>
-            <li><a href="https://www.nytimes.com/2013/11/14/books/a-life-of-barbara-stanwyck-by-victoria-wilson.html" id="tribute-link" target="_blank">Los Angeles Times Book Review - "A Life of Barbara Stanwyck"</a></li>
+            <li><Link to="https://www.thehairpin.com/2013/03/scandals-of-classic-hollywood-the-many-faces-of-barbara-stanwyck/" id="tribute-link" target="_blank">The Hairpin</Link></li>
+            <li><Link to="https://filmdialogueone.wordpress.com/2017/10/24/barbara-stanwyck/" id="tribute-link" target="_blank">Film Dialogue</Link></li>
+            <li><Link to="https://www.bestmoviesbyfarr.com/articles/barbara-stanwyck-bio/2016/04" id="tribute-link" target="_blank">Best Movies By Farr</Link></li>
+            <li><Link to="https://www.barbara-stanwyck.com/essential-guide-barbara-stanwyck/" id="tribute-link" target="_blank">The Essential Guide to Barbara Stanwyck</Link></li>
+            <li><Link to="https://www.nytimes.com/2013/11/14/books/a-life-of-barbara-stanwyck-by-victoria-wilson.html" id="tribute-link" target="_blank">Los Angeles Times Book Review - "A Life of Barbara Stanwyck"</Link></li>
           </ul>
         </div>
       </div>
