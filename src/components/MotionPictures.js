@@ -4,8 +4,9 @@ class MotionPictures extends Component {
   render() {
     return (
       <section id="motion-pictures">
-        <div className="section-hero">
-          <img src="./images/baby-face-2-lg.jpeg" alt="1930s stanwyck"/>
+        <div className="section-hero" id="img-div">
+          <img src="./images/baby-face-2-lg.jpeg" alt="1930s stanwyck" id="image"/>
+          <figcaption id="img-caption">Young Barbara</figcaption>
         </div>
         <h2 className="section-title">Motion Pictures</h2>
         <div className="story">

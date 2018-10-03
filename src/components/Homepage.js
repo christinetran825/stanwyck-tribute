@@ -8,7 +8,7 @@ import Closing from './Closing'
 class Homepage extends Component {
   render() {
     return (
-      <main>
+      <main id="main">
         <Beginnings/>
         <MotionPictures/>
         <BeingStany/>
