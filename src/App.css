@@ -107,6 +107,25 @@ footer {
 
 footer h5 {
   font-size: 30px;
+  margin-top: 0;
+}
+
+footer hr {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+footer hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
 }
 
 /* ==========================================================================
@@ -324,6 +343,30 @@ section {
 #filmography .quotes {
   font-size: 45px;
 }
+
+/* ==========================================================================
+   Closing Styles
+   ========================================================================== */
+
+#tribute-info {
+  display: block;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#tribute-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#tribute-info li {
+  padding-bottom: 10px;
+}
+
+#tribute-info li a {
+  text-decoration: none;
+}
+
 
 /* ==========================================================================
    BREAKPOINTS Styles
