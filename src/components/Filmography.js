@@ -8,7 +8,7 @@ class Filmography extends Component {
           <img src="./images/Barbara_Stanwyck_Big_Valley_1968.jpg" alt="stanwyck in Big Valley"/>
         </div>
         <h2 className="section-title">Filmography</h2>
-        <div id="resume" className="story">
+        <div id="resume">
           <div className="movies">
             <p className="category">Motion Pictures</p>
             <ul>
@@ -40,6 +40,8 @@ class Filmography extends Component {
               <li>Banjo on My Knee (1936)</li>
               <li>The Plough and the Stars (1936)</li>
               <li>Internes Can’t Take Money (1937)</li>
+            </ul>
+            <ul>
               <li>This Is My Affair (1937)</li>
               <li>Stella Dallas (1937)</li>
               <li>Breakfast for Two (1937)</li>
@@ -54,8 +56,6 @@ class Filmography extends Component {
               <li>Ball of Fire (1941)</li>
               <li>The Great Man’s Lady (1942)</li>
               <li>The Gay Sisters (1942)</li>
-            </ul>
-            <ul>
               <li>Lady of Burlesque (1943)</li>
               <li>Flesh and Fantasy (1943)</li>
               <li>Double Indemnity (1944)</li>
@@ -70,6 +70,8 @@ class Filmography extends Component {
               <li>Cry Wolf (1947)</li>
               <li>Variety Girl (1947)</li>
               <li>B.F.’s Daughter (1948)</li>
+            </ul>
+            <ul>
               <li>Sorry, Wrong Number (1948)</li>
               <li>The Lady Gambles (1949)</li>
               <li>East Side, West Side (1949)</li>
