@@ -6,7 +6,7 @@ class Beginnings extends Component {
       <section id="early-life">
         {/* <div className="section-hero"></div>
         <h2 className="section-title"> </h2> */}
-        <div className="story" id="tribute-info">
+        <div className="story">
           <article className="early-history">
             <p><span class="dropcap">B</span>orn as Ruby Catherine Stevens to a poor Scottish-Irish working class family in Brooklyn in July 16, 1907. When Ruby was just four, her mother was killed after a drunk knocked her off a moving streetcar. The loss of her mother devastated her grieving father. Unable to cope with such lost he vanished without a word. The children never saw him again.</p>
 
