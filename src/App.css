@@ -13,8 +13,8 @@ html {
    ========================================================================== */
 
 :root {
-  --main-text: #414140;
-  --section-text: #414140;
+  --main-text: #575757; /* Dim Gray */
+  --titles: #1f1f1f; /* Black */
 }
 
 @font-face {
@@ -123,6 +123,7 @@ main {
     "being-stany"
     "filmography"
     "closing";
+  color: var(--main-text);
 }
 
 section {
@@ -178,6 +179,7 @@ section {
 .section-title,
 .article-title {
   text-align: center;
+  color: var(--titles);
 }
 
 .section-title {
@@ -226,6 +228,7 @@ section {
   text-align: center;
   grid-area: quotes;
   padding: 0 100px;
+  color: var(--titles);
 }
 
 .author {
