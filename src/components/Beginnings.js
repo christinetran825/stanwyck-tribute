@@ -4,8 +4,8 @@ class Beginnings extends Component {
   render() {
     return (
       <section id="early-life">
-        {/* <div className="section-hero"></div>
-        <h2 className="section-title"> </h2> */}
+        <div className="section-hero"></div>
+        <h2 className="section-title"> </h2>
         <div className="story">
           <article className="early-history">
             <p><span class="dropcap">B</span>orn as Ruby Catherine Stevens to a poor Scottish-Irish working class family in Brooklyn in July 16, 1907. When Ruby was just four, her mother was killed after a drunk knocked her off a moving streetcar. The loss of her mother devastated her grieving father. Unable to cope with such lost he vanished without a word. The children never saw him again.</p>
@@ -16,10 +16,10 @@ class Beginnings extends Component {
 
             <p>After a few years as a showgirl with the Ziegfeld Follies, Ruby advanced her way to Broadway. She made her debut in 1926, and quickly landed parts small and big. Her first lead part was in a play called <span className="film-name">“The Noose”</span> where the program introduced her as Barbara Stanwyck. Her new moniker was coined by combining the first name of her character ‘Barbara Frietchie’ with the last name of another actress in the play ‘Jane Stanwyck.’ In 1927, at the age of 20, she won a leading role in the Broadway play <span className="film-name">“Burlesque”</span>. She received rave reviews and the play was a hit. This was the beginning of it all for Ruby, now Barbara. She played the part for two years and won contracts with Columbia Pictures and Warner Brothers. Author Hopkins, a well known Broadway theater director and producer remembers casting Barbara. He called her “The greatest natural actress of our time,” and “One of the theater’s great potential actresses was embalmed in celluloid.” </p>
           </article>
-          {/* <div id="img-div">
+          <div id="img-div">
             <img src="./images/barbara stanwyck young.jpg" alt="teenager stanwyck" className="photo-reference" id="image"/>
-            <p id="img-caption">Young Barbara</p>
-          </div> */}
+            <figcaption id="img-caption">Young Barbara</figcaption>
+          </div>
         </div>
         <div id="stany" className="quotes">
           <h3 className="quote">“I knew that after fourteen I’d have to earn my own living, but I was willing to do that … I’ve always been a little sorry for pampered people, and of course, they’re ‘very’ sorry for me.”</h3>

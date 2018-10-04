@@ -4,10 +4,7 @@ class MotionPictures extends Component {
   render() {
     return (
       <section id="motion-pictures">
-        <div className="section-hero" id="img-div">
-          <img src="./images/baby-face-2-lg.jpeg" alt="1930s stanwyck" id="image"/>
-          <figcaption id="img-caption">Young Barbara</figcaption>
-        </div>
+        <div className="section-hero" id="films"></div>
         <h2 className="section-title">Motion Pictures</h2>
         <div className="story">
           <article className="precode">
@@ -45,13 +42,13 @@ class MotionPictures extends Component {
             <p>She developed a distinctive character image - thick skin exterior shielding a warm, soft heart. Her emotional range was incredible. Expressing the exploration of human behavior and all its complexities was one of Barbara’s strengths not just as a performer. It might’ve been a cathartic outlet as she dug deep within her own life and experiences to bring intense complexity to her characters. Portraying a self-reliant, gutsy, and incredibly confident woman whose cool exterior held a vulnerable woman with a genuine heart defined a majority of roles she’s played. She believed writers then paid more attention to actors and actresses. Writers used to look at the actors and actresses work to build on the characters. Knowing the resume allowed writers to “know a part of you.” This was apparent in the film <span className="film-name">“Stella Dallas.”</span> Stella was a tough-talking woman but self-sacrificing noble mother. Speaking about the role, Barbara said, "...She wasn't me, that woman, but she was a woman I understood completely. She was good, cheap but good, and I could play her.” This 1937 remake of the original film was highly acclaimed and well received adding even more shine to Barbara’s star. The film was so popular a radio soap opera was created to continue the story from the film. It lasted for two decades. Stella Dallas is one of Barbara's most well-known role earning her an Academy Award Nomination.</p>
 
             <div className="gallery">
-              <img src="./images/wrong-number.jpg" alt="Stanwyck in Wrong Number" id="a"/>
-              <img src="./images/stella-dallas-2.jpg" alt="Stanwyck in Stella Dallas" id="b"/>
-              {/* <img src="./images/annie-oakley.jpg" alt="Stanwyck in Annie Oakley" id="c"/> */}
-              <img src="./images/thorn-birds.jpg" alt="Stanwyck in Thorn Birds" id="d"/>
-              <img src="./images/ball-of-fire.jpg" alt="Stanwyck in Ball of Fire" id="e"/>
-              <img src="./images/the-lady-eve.jpg" alt="Stanwyck in Lady Eve" id="f"/>
-              {/* <img src="./images/big-valley.jpg" alt="Stanwyck in Big Valley"/> */}
+              <div class="item"><img src="./images/wrong-number.jpg" alt="Stanwyck in Wrong Number"/></div>
+              <div class="item"><img src="./images/stella-dallas-2.jpg" alt="Stanwyck in Stella Dallas"/></div>
+              <div class="item"><img src="./images/annie-oakley.jpg" alt="Stanwyck in Annie Oakley"/> </div>
+              <div class="item"><img src="./images/thorn-birds.jpg" alt="Stanwyck in Thorn Birds"/></div>
+              <div class="item"><img src="./images/the-lady-eve.jpg" alt="Stanwyck in Lady Eve"/></div>
+              <div class="item"><img src="./images/ball-of-fire.jpg" alt="Stanwyck in Ball of Fire"/></div>
+              <div class="item"><img src="./images/big-valley.jpg" alt="Stanwyck in Big Valley"/></div>
             </div>
 
             <article id="testimonials" className="quotes">

@@ -4,9 +4,7 @@ class BeingStany extends Component {
   render() {
     return (
       <section id="being-stany">
-        <div className="section-hero">
-          <img src="./images/golden-boy.jpg" alt="stanwyck in golden boy"/>
-        </div>
+        <div className="section-hero" id="missy"></div>
         <h2 className="section-title">Being Stany</h2>
         <div className="story">
           <article className="personality">
